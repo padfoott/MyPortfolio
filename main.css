@@ -1,0 +1,169 @@
+/*******************************
+GENERAL
+********************************/
+
+body {
+	font-family: 'PT Sans', sans-serif;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+a {
+	text-decoration:none;
+}
+
+img {
+	max-width: 100%;
+}
+
+
+
+/*******************************
+HEADING
+********************************/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	margin: 15px 0;
+	font-size: 1.95em;
+	font-weight: normal;
+	line-height: 1.9em;
+}
+
+h2 {
+	font-family: 'Spectral', serif;
+	margin: -3px 0 0;
+	font-size: 1.30em;
+	font-weight: lighter;
+	line-height: 2.0em;
+}
+
+
+/*******************************
+NAVIGATION
+********************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 0;
+	padding: 15px 10px;
+}
+
+
+/*******************************
+FOOTER
+********************************/
+
+footer {
+	font-size: 0.75 em;
+	text-align: center;
+	clear: both;
+	padding-top: 50 px;
+	color: #555;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
+}
+
+
+
+/*******************************
+PAGE: PORTFOLIO
+********************************/
+
+#gallery {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #EAECFF;
+	color: #354267;
+}
+
+#gallery li a p {
+	margin: 0;
+	padding: 5%;
+	font-size: .85em;
+	color: #354267;
+}
+
+
+/*******************************
+COLORS
+********************************/
+
+/* site body */
+body {
+	background-color: #fff;
+	color: #354267;
+}
+
+/* navy header */
+header {
+	background: #3a4971;
+	border-color: #354267;
+}
+
+/* nav back on mobile */
+nav {
+	background: #354267;
+}
+
+/* logo text */
+h1, h2 {
+	color: #fff;
+}
+
+/* links */
+a {
+	color: #3a4971;
+}
+
+/* navy link */
+nav a, nav a:visited {
+	color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: #d0d0d4;
+}
